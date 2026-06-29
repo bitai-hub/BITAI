@@ -1,5 +1,5 @@
 # BITAI Public Chain Project Comprehensive Analysis Report
-  bitai.one admin@bitai.one
+  https://bitai.one  admin@bitai.one
 > Research Date: 2026-06-24
 > Scope: Full Source Code + Design Documentation + Build Artifacts
 
