@@ -110,10 +110,10 @@ bitai/
 | `vesting.go` | Vesting | Linear release contracts, 50% locked for 12 months, unlocked block by block |
 | `script.go` | Scripts | 3 script types: REWARD POOL / VESTING / DUP HASH160 EQUALVERIFY CHECKSIG |
 
-**B-Scheme Allocation Mechanism (Core Innovation):**
+** Scheme Allocation Mechanism (Core Innovation):**
 - Genesis block **contains only the miner pool** (70%), with zero pre-allocation.
-- Foundation (20%) released linearly block by block over approx. 4 years (2,102,400 blocks).
-- Project Team (5%) + Investors (5%) released linearly over approx. 2 years (1,051,200 blocks).
+- Foundation (20%) released linearly block by block over approx.  (2,102,400 blocks).
+- Project Team (5%) + Investors (5%) released linearly over approx.  (1,051,200 blocks).
 - 50% of Project Team and Investor allocations are additionally locked for 12 months.
 
 ### 3.2 PoAW Consensus Engine (`internal/consensus/`) — 4 Files
