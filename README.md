@@ -364,20 +364,7 @@ Submission → 100-block window → Can be challenged → Random 5-sample verifi
 14. **Decentralized Chat** — Rooms/Messages/P2P Broadcast/Persistence ✅
 15. **App Market** — Registration/Discovery/P2P Announcements/Embedded Routing ✅
 
-### 🔴 Key Issues & Improvement Areas
 
-| Issue | Severity | Description |
-|------|----------|------|
-| **ECC Mismatch** | 🔴 **High** | Code uses NIST P-256; Bitcoin standard is secp256k1 |
-| **No Unit Tests** | 🔴 **High** | `go test ./...` returns empty |
-| **Simplified Tx Signature Verification** | 🟡 **Medium** | `VerifyAddressSignature` currently returns `true` directly |
-| **SHA-256 replacing Keccak256** | 🟡 **Medium** | EVM standard requires Keccak256 |
-| **Storage Layer Upgrade Needed** | 🟡 **Medium** | Currently JSON files; design doc specifies LevelDB |
-| **JSON for P2P Serialization** | 🟡 **Medium** | Less efficient than binary protocols |
-| **Missing EVM DELEGATECALL** | 🟡 **Medium** | Impacts deployment of complex contracts |
-| **EVM Precompiled Contracts** | 🔵 **Low** | ecrecover/sha256/ripemd160, etc. |
-
----
 
 ## VIII. Core Source Code Statistics
 
