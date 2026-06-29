@@ -1,5 +1,5 @@
 # BITAI Public Chain Project Comprehensive Analysis Report
-
+#  bitai.one admin@bitai.one
 > Research Date: 2026-06-24
 > Scope: Full Source Code + Design Documentation + Build Artifacts
 
@@ -322,17 +322,11 @@ This is the **largest and most complete program**, integrating all functions:
 ```
 Total Supply: 1,000,000,000 bitAI
 ├─ Miner Mining: 700,000,000 (70%) — Dynamic release via mining
-├─ App Promotion: 200,000,000 (20%) — ~4-year linear release (95.14 bitAI per block)
-├─ Project Team:   50,000,000 (5%)  — ~2-year linear release + 50% locked for 12 months
-└─ Investors:      50,000,000 (5%)  — ~2-year linear release + 50% locked for 12 months
+├─ App Promotion: 200,000,000 (20%) — linear release (95.14 bitAI per block)
+├─ Project Team:   50,000,000 (5%)  — linear release + 50% locked for 12 months
+└─ Investors:      50,000,000 (5%)  — linear release + 50% locked for 12 months
 ```
 
-### B-Scheme Release Mechanism
-- **No Pre-allocation in Genesis**: Only miner pool UTXOs; no other addresses contain tokens.
-- **Foundation**: Releases `200,000,000 / 2,102,400 ≈ 95.14 bitAI` per block.
-- **Project Team**: Releases `50,000,000 / 1,051,200 ≈ 47.57 bitAI` per block.
-- **Investors**: Releases `50,000,000 / 1,051,200 ≈ 47.57 bitAI` per block.
-- **Vesting**: 50% of Team and Investor shares (i.e., 25 million each) are additionally locked for 12 months (518,400 blocks).
 
 ### PoAW Mining
 ```
